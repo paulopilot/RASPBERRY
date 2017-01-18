@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MicroPFD" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MicroPFD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MicroPFD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL_image" />
+			<Add option="-lSDL_ttf" />
+			<Add option="-lSDL_gfx" />
+			<Add option="-lSDL" />
+		</Linker>
+		<Unit filename="images/IAS_image.png" />
+		<Unit filename="images/altitude_scale.png" />
+		<Unit filename="images/backdrop.png" />
+		<Unit filename="images/background.png" />
+		<Unit filename="images/compassrose.png" />
+		<Unit filename="images/horizon.png" />
+		<Unit filename="images/needle.png" />
+		<Unit filename="images/pitchImage.png" />
+		<Unit filename="images/plane.png" />
+		<Unit filename="images/speed_scale.png" />
+		<Unit filename="images/uppercompass.png" />
+		<Unit filename="include/ADXL345.h" />
+		<Unit filename="include/BMP085.h" />
+		<Unit filename="include/Graphics.h" />
+		<Unit filename="include/HMC5883L.h" />
+		<Unit filename="include/IMU_10DOF.h" />
+		<Unit filename="include/L3G4200D.h" />
+		<Unit filename="include/sensor.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/ADXL345.cpp" />
+		<Unit filename="src/BMP085.cpp" />
+		<Unit filename="src/Graphics.cpp" />
+		<Unit filename="src/HMC5883L.cpp" />
+		<Unit filename="src/IMU_10DOF.cpp" />
+		<Unit filename="src/L3G4200D.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

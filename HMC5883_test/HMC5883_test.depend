@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1481428350 source:/home/share/HMC5883_test/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<math.h>
+	<unistd.h>
+	<string.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<linux/i2c-dev.h>
+	<iostream>
+
